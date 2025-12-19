@@ -54,7 +54,7 @@ Experiments demonstrate that this disentangled architecture achieves high-qualit
 ## Results
 
 <p align="center">
-    <img src="assets/grid_1.jpg" width="100%"  align="center"/>
+    <img src="assets/grid_4.jpg" width="100%"  align="center"/>
 </p>
 
 <p align="center">
