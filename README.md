@@ -27,10 +27,21 @@ The original implementation of the Fast-2DGS paper
             └── DIV2K_valid_HR
         └── ImageGS_anime
         └── ImageGS_textures
-
     ```
 
 
+(will update soon)
 
+## Acknowledgements
+We would like to thank the [Image-GS](https://github.com/NYU-ICL/image-gs) team, and [Instant-GI](https://github.com/whoiszzj/Instant-GI) for their great work and deep inspiration.
 
-
+## Citation
+If you find this project helpful to your research, please consider citing [BibTeX](assets/docs/image-gs.bib):
+```bibtex
+@article{wang2025fast,
+  title={Fast 2DGS: Efficient Image Representation with Deep Gaussian Prior},
+  author={Wang, Hao and Bastola, Ashish and Zhou, Chaoyi and Zhu, Wenhui and Chen, Xiwen and Dong, Xuanzhao and Huang, Siyu and Razi, Abolfazl},
+  journal={arXiv preprint arXiv:2512.12774},
+  year={2025}
+}
+```
