@@ -66,7 +66,7 @@ Experiments demonstrate that this disentangled architecture achieves high-qualit
 ## Gaussian Initialization Comparison
 
 <p align="center">
-    <img src="assets/heatmap_2" width="80%"  align="center"/>
+    <img src="assets/heatmap_2.jpg" width="80%"  align="center"/>
 </p>
 
 
@@ -90,7 +90,7 @@ Experiments demonstrate that this disentangled architecture achieves high-qualit
 
 
 ## Acknowledgements
-We would like to thank the [Image-GS](https://github.com/NYU-ICL/image-gs) team, and [Instant-GI](https://github.com/whoiszzj/Instant-GI) for their great work and deep inspiration.
+We would like to thank the [Image-GS](https://github.com/NYU-ICL/image-gs) team for providing the 2DGS rendering core, and [Instant-GI](https://github.com/whoiszzj/Instant-GI) team for their great work and deep inspiration.
 
 ## Citation
 If you find this project helpful to your research, please consider citing [BibTeX](assets/docs/image-gs.bib):
