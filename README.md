@@ -90,7 +90,7 @@ Experiments demonstrate that this disentangled architecture achieves high-qualit
 
 
 ## Acknowledgements
-We would like to thank the [Image-GS](https://github.com/NYU-ICL/image-gs) team for providing the 2DGS rendering core, and [Instant-GI](https://github.com/whoiszzj/Instant-GI) team for their great work and deep inspiration.
+We sincerely appreciate the [Image-GS](https://github.com/NYU-ICL/image-gs) team for providing the 2DGS rendering core and for sharing their high-quality datasets, and we thank [Instant-GI](https://github.com/whoiszzj/Instant-GI) team for their great work and deep inspiration. Moreover, we thank the [GaussianImage](https://github.com/Xinjie-Q/GaussianImage) team for their foundation work at this domain.
 
 ## Citation
 If you find this project helpful to your research, please consider citing [BibTeX](assets/docs/image-gs.bib):
