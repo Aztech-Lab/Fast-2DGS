@@ -1,0 +1,30 @@
+colorama==0.4.6
+filelock==3.20.0
+fsspec==2025.12.0
+fused-ssim @ git+https://github.com/rahul-goel/fused-ssim/@deceb8a14d695bc1ef83967630132c2b1ceda654
+-e git+https://github.com/Aztech-Lab/gmod.git@bb6c86f2dce71d64646c8c2d7692f1284475b1dd#egg=gsplat
+jaxtyping==0.3.4
+Jinja2==3.1.6
+lpips==0.1.4
+markdown-it-py==4.0.0
+MarkupSafe==2.1.5
+mdurl==0.1.2
+mpmath==1.3.0
+networkx==3.6.1
+numpy==2.2.6
+opencv-python==4.12.0.88
+pillow==12.0.0
+Pygments==2.19.2
+pytorch-msssim==1.0.0
+rich==14.2.0
+scipy==1.16.3
+setuptools==80.9.0
+sympy==1.14.0
+torch==2.7.1+cu126
+torch-featurelayer==0.1.2
+torchaudio==2.7.1+cu126
+torchvision==0.22.1+cu126
+tqdm==4.67.1
+typing_extensions==4.15.0
+wadler_lindig==0.1.7
+wheel==0.45.1
