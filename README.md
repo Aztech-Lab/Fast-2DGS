@@ -6,10 +6,11 @@ However, high-quality 2DGS typically requires post-optimization. Existing method
 To bridge this gap, we present \textbf{Fast-2DGS}, a lightweight framework for efficient Gaussian image representation. Specifically, we introduce Deep Gaussian Prior, implemented as a conditional network to capture the spatial distribution of Gaussian primitives under different complexities. In addition, we propose an attribute regression network to predict dense Gaussian properties.
 Experiments demonstrate that this disentangled architecture achieves high-quality reconstruction in a single forward pass, followed by minimal fine-tuning. More importantly, our approach significantly reduces computational cost without compromising visual quality, bringing 2DGS closer to industry-ready deployment.
 
-
-<img src="assets/cover_1.jpg" width="50%"  align="center"/>
 (will update more)
 
+<p align="center">
+    <img src="assets/cover_1.jpg" width="50%"  align="center"/>
+</p>
 
 ## Setup
 1. Navigate to projekt folder, Create a new Python environment and install the Image-GS env (double check CUDA path).
@@ -38,8 +39,38 @@ Experiments demonstrate that this disentangled architecture achieves high-qualit
         └── ImageGS_textures
     ```
 
-
 (will update soon)
+
+
+## Framework
+
+<p align="center">
+    <img src="assets/frame.jpg" width="80%"  align="center"/>
+</p>
+
+
+
+
+## Results
+
+<p align="center">
+    <img src="assets/grid_1.jpg" width="100%"  align="center"/>
+</p>
+
+<p align="center">
+    <img src="assets/compare.jpg" width="100%"  align="center"/>
+</p>
+
+
+
+## Additional Results
+
+
+<p align="center">
+    <img src="assets/grid_2.jpg" width="100%"  align="center"/>
+</p>
+
+
 
 ## Acknowledgements
 We would like to thank the [Image-GS](https://github.com/NYU-ICL/image-gs) team, and [Instant-GI](https://github.com/whoiszzj/Instant-GI) for their great work and deep inspiration.
