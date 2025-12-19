@@ -63,6 +63,23 @@ Experiments demonstrate that this disentangled architecture achieves high-qualit
 
 
 
+## Gaussian Initialization Comparison
+
+<p align="center">
+    <img src="assets/heatmap_2" width="80%"  align="center"/>
+</p>
+
+
+
+## Impact of Gaussians 
+
+<p align="center">
+    <img src="assets/ROI.jpg" width="80%"  align="center"/>
+</p>
+
+
+
+
 ## Additional Results
 
 
