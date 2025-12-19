@@ -1,6 +1,15 @@
-# Fast-2DGS
-The original implementation of the Fast-2DGS paper 
-(will update soon)
+# Fast 2DGS: Efficient Image Representation with Deep Gaussian Prior
+
+As generative models become increasingly capable of producing high-fidelity visual content, the demand for efficient, interpretable, and editable image representations has grown substantially. 
+Recent advances in 2D Gaussian Splatting (2DGS) have emerged as a promising solution, offering explicit control, high interpretability, and real-time rendering capabilities ($>1000$ FPS). 
+However, high-quality 2DGS typically requires post-optimization. Existing methods adopt random or heuristics (e.g., gradient maps), which are often insensitive to image complexity and lead to slow convergence ($>10s$). More recent approaches introduce learnable networks to predict initial Gaussian configurations, but at the cost of increased computational and architectural complexity.
+To bridge this gap, we present \textbf{Fast-2DGS}, a lightweight framework for efficient Gaussian image representation. Specifically, we introduce Deep Gaussian Prior, implemented as a conditional network to capture the spatial distribution of Gaussian primitives under different complexities. In addition, we propose an attribute regression network to predict dense Gaussian properties.
+Experiments demonstrate that this disentangled architecture achieves high-quality reconstruction in a single forward pass, followed by minimal fine-tuning. More importantly, our approach significantly reduces computational cost without compromising visual quality, bringing 2DGS closer to industry-ready deployment.
+
+
+<img src="assets/cover_1.jpg" width="100%"  align="center"/>
+(will update more)
+
 
 ## Setup
 1. Navigate to projekt folder, Create a new Python environment and install the Image-GS env (double check CUDA path).
