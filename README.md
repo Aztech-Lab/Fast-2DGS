@@ -7,7 +7,7 @@ To bridge this gap, we present \textbf{Fast-2DGS}, a lightweight framework for e
 Experiments demonstrate that this disentangled architecture achieves high-quality reconstruction in a single forward pass, followed by minimal fine-tuning. More importantly, our approach significantly reduces computational cost without compromising visual quality, bringing 2DGS closer to industry-ready deployment.
 
 
-<img src="assets/cover_1.jpg" width="100%"  align="center"/>
+<img src="assets/cover_1.jpg" width="50%"  align="center"/>
 (will update more)
 
 
