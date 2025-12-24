@@ -13,7 +13,7 @@ Experiments demonstrate that this disentangled architecture achieves high-qualit
 </p>
 
 ## Setup
-1. Navigate to projekt folder, Create a new Python environment and install the Image-GS env (double check CUDA path).
+1. Navigate to projekt folder, Create a new Python environment and install the Image-GS env (double check CUDA path). Recommend ```torch==2.7.1+cu126```, torch==2.9 found very slow on gsplat.
     ```bash
     conda create -n 2dgs python=3.12
     conda activate 2dgs
@@ -23,8 +23,8 @@ Experiments demonstrate that this disentangled architecture achieves high-qualit
     pip install -e . --no-build-isolation
     cd ..
     ```
-2. Clone the datasets from [2DGS_dataset](https://github.com/Aztech-Lab/2DGS_dataset), download [DIV2K_train_HR](https://data.vision.ee.ethz.ch/cvl/DIV2K/) and organize the folder structure as follows:
-     ```bash
+3. Clone the datasets from [2DGS_dataset](https://github.com/Aztech-Lab/2DGS_dataset), download [DIV2K_train_HR](https://data.vision.ee.ethz.ch/cvl/DIV2K/) and organize the folder structure as follows:
+    ```bash
     git clone https://github.com/Aztech-Lab/2DGS_dataset.git
     ```
 
