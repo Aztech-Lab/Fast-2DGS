@@ -23,7 +23,7 @@ Experiments demonstrate that this disentangled architecture achieves high-qualit
     pip install -e . --no-build-isolation
     cd ..
     ```
-*Note: You might encounter CUDA path issue when install ```gmod```, set CUDA path to match your torch version, then install ```gmod``` again. \n
+*Note: You might encounter CUDA path issue when install ```gmod```, set CUDA path to match your torch version, then install ```gmod``` again. <br>
 *The ```gmod``` package is build by [Image-GS](https://github.com/NYU-ICL/image-gs) team. We rename it to ```gmod``` to aviod conflict with other ```gsplat``` library.
 
 Now you can run ```python 2dgs_test.py``` for a simple demo of 2DGS on Bulbasaur, results are saved in ```./test/fit_outputs```.
