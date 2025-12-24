@@ -44,6 +44,11 @@ Now you can run ```python test_2dgs.py``` for a simple demo of 2DGS on Bulbasaur
         └── ImageGS_textures
     ```
 
+## Training
+(will update soon)
+
+
+## Testing
 (will update soon)
 
 
