@@ -13,7 +13,7 @@ Experiments demonstrate that this disentangled architecture achieves high-qualit
 </p>
 
 ## Setup
-1. Navigate to projekt folder, Create a new Python environment and install the Image-GS env (double check CUDA path). Recommend ```torch==2.7.1+cu126```, torch==2.9 found very slow on gsplat.
+1. Navigate to projekt folder, Create a new Python environment and install the dependencies (double check CUDA path). We use ```torch==2.7.1+cu126``` for this study, since torch==2.9 found very slow on gsplat.
     ```bash
     conda create -n 2dgs python=3.12
     conda activate 2dgs
@@ -23,7 +23,12 @@ Experiments demonstrate that this disentangled architecture achieves high-qualit
     pip install -e . --no-build-isolation
     cd ..
     ```
-3. Clone the datasets from [2DGS_dataset](https://github.com/Aztech-Lab/2DGS_dataset), download [DIV2K_train_HR](https://data.vision.ee.ethz.ch/cvl/DIV2K/) and organize the folder structure as follows:
+*Note: You might encounter CUDA path issue when install ```gmod```, set CUDA path to match your torch version, then install ```gmod``` again.
+*The ```gmod``` package is build by [Image-GS](https://github.com/NYU-ICL/image-gs) team. We rename it to ```gmod``` to aviod conflict with other ```gsplat``` library.
+
+Now you can run ```python 2dgs_test.py``` for a simple demo of 2DGS on Bulbasaur, results are saved in ```./test/fit_outputs```.
+
+2. Clone the datasets from [2DGS_dataset](https://github.com/Aztech-Lab/2DGS_dataset), download [DIV2K_train_HR](https://data.vision.ee.ethz.ch/cvl/DIV2K/) and organize the folder structure as follows:
     ```bash
     git clone https://github.com/Aztech-Lab/2DGS_dataset.git
     ```
