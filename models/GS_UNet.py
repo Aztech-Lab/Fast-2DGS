@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 11 22:17:25 2025
-
-@author: MaxGr
-"""
+"""UNet backbones for heatmap and Gaussian attribute prediction."""
 
 import torch
 import torch.nn as nn

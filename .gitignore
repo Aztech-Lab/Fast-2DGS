@@ -1,1 +1,19 @@
-/2DGS_dataset
+# datasets (clone separately)
+2DGS_dataset/
+old/
+
+# inference / experiment outputs
+outputs/
+exp/
+test/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# env
+.env
+.venv/
+venv/
