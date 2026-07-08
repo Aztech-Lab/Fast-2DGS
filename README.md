@@ -8,6 +8,31 @@ To bridge this gap, we present **Fast-2DGS**, a lightweight framework for effici
     <img src="assets/cover_1.jpg" width="50%"  align="center"/>
 </p>
 
+
+## News
+Thank you very much for following up on this work. We sincerely apologize for the delay due to our job shift.
+
+This project is now managed by **Aztech Labs**. We will provide long-term maintenance for this project and will update industry-ready support in the next few months: 
+1. Higher resolution support; 
+2. End-to-end encoding architecture
+3. Efficient image file compression
+
+## Logs
+
+**[June 2026] We are working on**
+- Entropy-aware encoding
+- File compression
+
+**[May 2026] Repo refresh**
+- **Inference API** — Core logic moved to `engine.py`.
+- **Training** — Stage 1 & 2 training scripts shipped.
+- **Benchmark** — Paper-aligned evaluation.
+- **Weights** — Default heatmap checkpoint updated.
+
+**[March 2026] Our paper is presented in WACV 2026**
+
+
+
 ## Requirements
 
 - Linux / Windows, NVIDIA GPU
@@ -195,6 +220,11 @@ train(args)
 
 Outputs in `exp/heatmap*/`: `heat_best.pth`, `heat_last.pth`, `plot_train.png`, `results/epoch_*.png`, `train_log.csv`.
 
+<p align="center">
+    <img src="assets/heat_epoch_31.png" width="100%"  align="center"/>
+</p>
+
+
 ### Stage 2 — Attribute network
 
 ```bash
@@ -229,6 +259,11 @@ train(args)
 | `--feat_plus` | True | Use `GaussianUNet_Plus` with xy offset |
 
 Outputs in `exp/feature*/`: `feat_best.pth` (best PSNR), `plot_train.png`, `results/epoch_*.png`, `train_log.csv`.
+
+<p align="center">
+    <img src="assets/feat_epoch_0.png" width="100%"  align="center"/>
+</p>
+
 
 ### Pretrained weights
 
@@ -281,10 +316,12 @@ We sincerely appreciate the [Image-GS](https://github.com/NYU-ICL/image-gs) team
 If you find this project helpful to your research, please consider citing:
 
 ```bibtex
-@article{wang2025fast,
-  title={Fast 2DGS: Efficient Image Representation with Deep Gaussian Prior},
-  author={Wang, Hao and Bastola, Ashish and Zhou, Chaoyi and Zhu, Wenhui and Chen, Xiwen and Dong, Xuanzhao and Huang, Siyu and Razi, Abolfazl},
-  journal={arXiv preprint arXiv:2512.12774},
-  year={2025}
+@InProceedings{Wang_2026_WACV,
+    author    = {Wang, Hao and Bastola, Ashish and Zhou, Chaoyi and Zhu, Wenhui and Chen, Xiwen and Dong, Xuanzhao and Huang, Siyu and Razi, Abolfazl},
+    title     = {Fast 2DGS: Efficient Image Representation with Deep Gaussian Prior},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
+    month     = {March},
+    year      = {2026},
+    pages     = {1184-1193}
 }
 ```
