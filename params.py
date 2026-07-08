@@ -3,8 +3,9 @@
 
 from pathlib import Path
 
-ROOT_DIR = Path(__file__).resolve().parent
-DATASET_ROOT = ROOT_DIR / "2DGS_dataset" / "dataset"
+# ROOT_DIR = Path(__file__).resolve().parent
+# DATASET_ROOT = ROOT_DIR / "2DGS_dataset" / "dataset"
+DATASET_ROOT = Path("E:/Data/")
 
 Kodak_path = str(DATASET_ROOT / "Kodak")
 DIV2K_train_HR_path = str(DATASET_ROOT / "DIV2K" / "DIV2K_train_HR")

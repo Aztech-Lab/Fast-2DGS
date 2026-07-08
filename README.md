@@ -47,6 +47,8 @@ Fast-2DGS/
 ├── main_demo.py           # Inference quick start (recommended first run)
 ├── main_train_heat.py     # Stage 1 training quick start
 ├── main_train_feat.py     # Stage 2 training quick start
+├── main_benchmark.py      # Paper-aligned dataset benchmark
+├── benchmark.py           # Benchmark core (metrics + aggregation)
 ├── train_heatmap.py       # Stage 1: train HeatmapUNet (full script)
 ├── train_feature.py       # Stage 2: train GaussianUNet_Plus (full script)
 ├── tools.py               # Logging, heatmap, training helpers
@@ -75,11 +77,20 @@ python inference.py --input assets/anime-1_2k.png --progress
 
 Outputs go to `outputs/infer/` (`*_gt.png`, `*_pred_init.png`, `*_pred_tune.png`, `summary.json`).
 
-### 3. Batch benchmark
+### 3. Batch inference (lightweight)
 
 ```bash
 python inference.py --input_dir 2DGS_dataset/dataset/Kodak --progress
 ```
+
+### 4. Benchmark
+
+```bash
+python main_benchmark.py
+python main_benchmark.py --data_path 2DGS_dataset/dataset/Kodak --save_grid --progress
+```
+
+Reports init/tune PSNR, 1s/2s/5s PSNR, MS-SSIM, inference/tune/batch time, FPS → `outputs/benchmark_kodak/summary.json`.
 
 ### Python API
 
